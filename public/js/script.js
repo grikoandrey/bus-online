@@ -3,13 +3,13 @@ const fetchBusData = async () => {
     try {
         const response = await fetch('/next-departure');
         if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+            throw new Error(`HTTP Error! status: ${response.status}`);
         }
 
     // const buses = response.json();
     return response.json();
     } catch (error) {
-        console.error(`Что-то пошло не так: ${error}`)
+        console.error(`Error fetching bus data: ${error}`)
     }
 };
 
