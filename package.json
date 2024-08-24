@@ -1,0 +1,23 @@
+{
+  "name": "autobus_schedule",
+  "version": "0.0.1",
+  "description": "онлайн-расписание автобусов",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bus",
+    "online-schedule",
+    "schedule"
+  ],
+  "type": "module",
+  "author": "Andrey Griko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "luxon": "^3.5.0"
+  }
+}
